@@ -1,10 +1,10 @@
-config = Config.get()
-config.fillWindow()
-config.toggleStats()
+app = angular.module('app', [])
 
-engine = new Engine3D()
+app.controller 'MainController', ($scope) ->
+  $scope.count = 0
 
-Engine3D.scenify(engine, ->
-)
+  $scope.click = ->
+    $scope.count += 1
 
-engine.render()
+  $scope.yell = ->
+    alert('hello')
