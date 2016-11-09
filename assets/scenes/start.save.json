@@ -1,0 +1,12 @@
+{
+  "id": "start",
+  "engine": {},
+  "assets": [],
+  "cameras": [],
+  "items": [
+    {
+      "type": "cube"
+    }
+  ],
+  "scripts": []
+}
