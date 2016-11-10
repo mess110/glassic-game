@@ -1,8 +1,22 @@
 {
   "id": "start",
-  "engine": {},
+  "engine": {
+    "camera": 0
+  },
   "assets": [],
-  "cameras": [],
+  "cameras": [
+    {
+      "type": "PerspectiveCamera",
+      "view_angle": 45,
+      "near": 1,
+      "far": 100000,
+      "id": "camera",
+      "position": {
+        "z": 20,
+        "y": 2
+      }
+    }
+  ],
   "items": [
     {
       "type": "cube"

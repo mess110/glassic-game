@@ -9,6 +9,8 @@ config.toggleStats();
 
 engine = new Engine3D();
 
-Engine3D.scenify(engine, function() {});
+Engine3D.scenify(engine, function() {
+  return Helper.orbitControls(engine);
+});
 
 engine.render();
